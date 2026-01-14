@@ -1,0 +1,20 @@
+{
+  "name": "binance-borrow-alert-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that monitors Binance margin borrow/repay stats",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.1.2",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.16.3"
+  }
+}
